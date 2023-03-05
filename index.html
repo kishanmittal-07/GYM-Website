@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fitnessJunction.com</title>
+
+</head>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@600&display=swap" rel="stylesheet">
+<link rel="stylesheet" media='screen and (max-width:1180px)' href="/css/style.css">
+<!-- Here just linked CSS page -->
+<style>
+    /* CSS Reset. */
+    body {
+        font-family: 'Baloo Bhaijaan 2', cursive;
+        margin: 0px;
+        padding: 0px;
+        background: url('img/man-g25395d862_1920.jpg');
+    }
+
+    .left {
+        position: absolute;
+        left: 45px;
+        top: 10px;
+        display: inline-block;
+        color: white;
+        /* border: 2px solid red; */
+    }
+
+    .left img {
+        line-height: 15px;
+        font-size: 20px;
+        width: 100px;
+        filter: invert();
+    }
+
+    .left div {
+        text-align: center;
+        line-height: 19px;
+        font-size: 20px;
+    }
+
+    .mid {
+        display: block;
+        width: 55%;
+        margin: 10px auto;
+        /* color: white; */
+        /* border: 2px solid green; */
+    }
+
+    .right {
+        position: absolute;
+        right: 34px;
+        top: 20px;
+        display: inline-block;
+        /* color: white; */
+        /* border: 2px solid blueviolet; */
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+
+        display: inline-block;
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        /* Above code for removing underline list items */
+        padding: 34px 23px;
+        font-size: 20px;
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: underline;
+        color: grey;
+    }
+
+    .btn {
+        font-family: 'Baloo Bhaijaan 2', cursive;
+        margin: 0px 9px;
+        color: white;
+        background-color: black;
+        padding: 4px 14px;
+        border: 2px solid grey;
+        border-radius: 10px;
+        font-size: 13px;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background-color: grey;
+    }
+
+    .container {
+
+        color: white;
+        border: 2px solid white;
+        margin: 70px 50px;
+        padding: 30px 70px;
+        width: 30%;
+        border-radius: 15px;
+    }
+
+    .form.group input {
+        font-family: 'Baloo Bhaijaan 2', cursive;
+        text-align: center;
+        display: block;
+        width: 315px;
+        padding: 2px;
+        border: 2px solid black;
+        margin: 3px auto;
+        font-size: 15px;
+        border-radius: 20px;
+    }
+
+    .container h1 {
+        text-align: center;
+    }
+
+    .container button {
+        display: block;
+        width: 80px;
+        margin: 8px auto;
+    }
+</style>
+
+<body>
+    <header class="header">
+        <!-- Left box for logo. -->
+        <div class="left">
+            <img src="img/silhouette-gdf9c830d9_1280.png" alt="">
+            <div>Fitness Juction</div>
+        </div>
+        <!-- Mid box for navbar.  -->
+        <div class="mid">
+            <ul class="navbar">
+                <!-- <li><a href="#" class="active">Home</a></li> -->
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Fitness Calculator</a></li>
+                <li><a href="#">Supplements</a></li>
+                <li><a href="#">About Us</a></li>
+            </ul>
+        </div>
+        <!-- Right box for buttons -->
+        <div class="right">
+            <button class="btn">Call Us Now</button>
+            <button class="btn">Email Us</button>
+
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join the best GYM of Delhi NOW!</h1>
+        <form action="noaction.php">
+            <div class="form group">
+                <input type="text" name="" placeholder="Enter your name">
+                <input type="text" name="" placeholder="Enter your Age">
+                <input type="text" name="" placeholder="Enter your Gender">
+                <input type="text" name="" placeholder="Enter your Address">
+                <input type="text" name="" placeholder="Enter your Mobile no.">
+                <input type="text" name="" placeholder="Enter your Emal id">
+            </div>
+
+            <button class="btn">Submit</button>
+
+        </form>
+    </div>
+</body>
+
+</html>
